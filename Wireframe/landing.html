@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page · Wireframe</title>
+  <!-- Schrift hier tauschen, falls nicht Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="wireframe.css">
+</head>
+<!-- class="wireframe" = Skizzen-Modus. Entfernen für cleanes Design. -->
+<body class="wireframe">
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header">
+    <div class="container nav">
+      <div class="logo">LOGO</div>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#proof">Referenzen</a></li>
+          <li><a href="#pricing">Preise</a></li>
+        </ul>
+      </nav>
+      <a href="#cta" class="btn">Jetzt starten</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== 1 · HERO ===== -->
+    <section class="section center" data-label="HERO">
+      <div class="container">
+        <span class="eyebrow">Kategorie / Eyebrow</span>
+        <h1>Die eine klare Botschaft,<br>die dein Angebot erklärt</h1>
+        <p class="lead">Ein Satz Unterstützung: Welches Problem löst du, für wen, und warum besser als alles andere.</p>
+        <div style="display:flex; gap:1rem; justify-content:center; margin-top:2rem; flex-wrap:wrap;">
+          <a href="#cta" class="btn btn--lg">Primärer CTA</a>
+          <a href="#features" class="btn btn--ghost btn--lg">Mehr erfahren</a>
+        </div>
+        <div class="ph ph--lg" style="margin-top:3rem;">Produkt-Screenshot / Hero-Bild</div>
+      </div>
+    </section>
+
+    <!-- ===== 2 · PROBLEM ===== -->
+    <section class="section section--surface center" data-label="PROBLEM">
+      <div class="container">
+        <span class="eyebrow">Das Problem</span>
+        <h2>Das kennt deine Zielgruppe nur zu gut</h2>
+        <div class="grid grid-3" style="margin-top:2.5rem;">
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Schmerzpunkt 1</h3><p>Kurz beschreiben, was nervt.</p></div>
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Schmerzpunkt 2</h3><p>Kurz beschreiben, was nervt.</p></div>
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Schmerzpunkt 3</h3><p>Kurz beschreiben, was nervt.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3 · LÖSUNG ===== -->
+    <section class="section" data-label="LÖSUNG">
+      <div class="container split">
+        <div>
+          <span class="eyebrow">Die Lösung</span>
+          <h2>So löst dein Produkt genau das</h2>
+          <p>Erkläre den Kern-Mechanismus. Wie funktioniert es? Warum ist es einfacher/schneller/besser?</p>
+          <a href="#cta" class="btn">Lösung ansehen</a>
+        </div>
+        <div class="ph ph--lg">Mockup / GIF / Demo</div>
+      </div>
+    </section>
+
+    <!-- ===== 4 · FEATURES ===== -->
+    <section class="section section--surface" id="features" data-label="FEATURES">
+      <div class="container">
+        <div class="center"><span class="eyebrow">Features</span><h2>Alles, was du brauchst</h2></div>
+        <div class="grid grid-3" style="margin-top:2.5rem;">
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Feature 1</h3><p>Nutzen statt Funktion beschreiben.</p></div>
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Feature 2</h3><p>Nutzen statt Funktion beschreiben.</p></div>
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Feature 3</h3><p>Nutzen statt Funktion beschreiben.</p></div>
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Feature 4</h3><p>Nutzen statt Funktion beschreiben.</p></div>
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Feature 5</h3><p>Nutzen statt Funktion beschreiben.</p></div>
+          <div class="card"><div class="ph ph--sm">Icon</div><h3>Feature 6</h3><p>Nutzen statt Funktion beschreiben.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5 · SOCIAL PROOF ===== -->
+    <section class="section center" id="proof" data-label="SOCIAL PROOF">
+      <div class="container">
+        <span class="eyebrow">Vertrauen</span>
+        <h2>Das sagen andere</h2>
+        <div class="grid grid-3" style="margin-top:2.5rem;">
+          <div class="card"><p>„Zitat eines echten Kunden mit konkretem Ergebnis.“</p><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;"><div class="ph ph--circle"></div><div style="text-align:left;"><strong>Name</strong><br><small style="color:var(--color-muted)">Rolle, Firma</small></div></div></div>
+          <div class="card"><p>„Zitat eines echten Kunden mit konkretem Ergebnis.“</p><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;"><div class="ph ph--circle"></div><div style="text-align:left;"><strong>Name</strong><br><small style="color:var(--color-muted)">Rolle, Firma</small></div></div></div>
+          <div class="card"><p>„Zitat eines echten Kunden mit konkretem Ergebnis.“</p><div style="display:flex;gap:.75rem;align-items:center;margin-top:1rem;"><div class="ph ph--circle"></div><div style="text-align:left;"><strong>Name</strong><br><small style="color:var(--color-muted)">Rolle, Firma</small></div></div></div>
+        </div>
+        <div class="grid grid-4" style="margin-top:2.5rem;align-items:center;">
+          <div class="ph ph--sm">Logo</div><div class="ph ph--sm">Logo</div><div class="ph ph--sm">Logo</div><div class="ph ph--sm">Logo</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 6 · CTA / PRICING ===== -->
+    <section class="section section--surface center" id="cta" data-label="CTA / PRICING">
+      <div class="container">
+        <span class="eyebrow">Loslegen</span>
+        <h2>Bereit anzufangen?</h2>
+        <p class="lead">Letzter Stupser. Risiko nehmen: „Kostenlos testen“, „Keine Kreditkarte“, Garantie.</p>
+        <a href="#" class="btn btn--lg" style="margin-top:1.5rem;">Jetzt starten</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 7 · FOOTER ===== -->
+  <footer class="site-footer" data-label="FOOTER">
+    <div class="container grid grid-4">
+      <div><div class="logo" style="color:#fff;">LOGO</div><p style="color:#9aa0ab;">Kurzer Slogan oder Mission.</p></div>
+      <div><h3>Produkt</h3><p><a href="#">Features</a><br><a href="#">Preise</a><br><a href="#">FAQ</a></p></div>
+      <div><h3>Firma</h3><p><a href="#">Über uns</a><br><a href="#">Blog</a><br><a href="#">Kontakt</a></p></div>
+      <div><h3>Rechtliches</h3><p><a href="#">Impressum</a><br><a href="#">Datenschutz</a><br><a href="#">AGB</a></p></div>
+    </div>
+    <div class="container" style="border-top:1px solid #2c2f36;margin-top:2rem;padding-top:1.5rem;"><small>© 2026 Firma. Alle Rechte vorbehalten.</small></div>
+  </footer>
+
+</body>
+</html>
